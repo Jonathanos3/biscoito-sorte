@@ -1,0 +1,42 @@
+* {
+  background: #ddd;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+h2 {
+  margin-top: 70px;
+}
+
+.img {
+  width: 250px;
+  height: 250px;
+  margin-top: 50px;
+}
+
+button {
+  border-radius: 4px;
+}
+
+button:hover {
+  background: black;
+  color: #ddd;
+  cursor: pointer;
+}
+
+.textoFrase {
+  font-style: italic;
+  color: black;
+  text-align: center;
+}
+
+@media (max-width: 350px) {
+  .img {
+    width: 150px;
+    height: 150px;
+  }
+}
